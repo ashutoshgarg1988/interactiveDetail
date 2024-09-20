@@ -1,0 +1,24 @@
+.timeline {
+  display: flex;
+  overflow-x: auto;
+  padding: 20px;
+}
+
+.timeline-event {
+  flex: 0 0 150px;
+  text-align: center;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.timeline-icon {
+  font-size: 40px;
+}
+
+.timeline-date {
+  font-weight: bold;
+}
+
+.timeline-title {
+  margin-top: 5px;
+}
